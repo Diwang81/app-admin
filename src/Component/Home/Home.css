@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue
+}
+
+.Menu{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+}
+
+.Header{
+    width: 1040px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.PageHeader{
+    display: inline-block;
+}

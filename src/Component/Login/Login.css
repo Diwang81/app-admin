@@ -1,0 +1,39 @@
+body{
+  background-color: aliceblue;
+}
+
+.login-form {
+    max-width: 350px;
+  }
+
+.login-form-forgot {
+    text-align: center;
+  }
+
+.login-form-button {
+  width: 200px;
+  margin: 13px;
+  }
+
+.continer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    }
+
+.button-google {
+  width: 150px;
+  margin: 15px;
+  padding: 5px; 
+  
+}
+
+.button-github {
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+}

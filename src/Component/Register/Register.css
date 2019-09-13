@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue
+}
+
+.Forgot{
+width: 150%;
+}
+
+.Button{
+float: left;
+padding: 10px;
+padding-left: 50%;
+}
+
+.Link{
+margin: 13px;
+width: 200%;
+text-align: center;
+}
