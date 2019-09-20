@@ -17,3 +17,15 @@ body{
 .PageHeader{
     display: inline-block;
 }
+
+/* Manager */
+.continerAccount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    }

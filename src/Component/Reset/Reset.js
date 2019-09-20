@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import {Form, Input, Icon, Button, Card, Avatar } from 'antd';
-import './Register.css';
+import {Form, Input, Button, Card, Avatar } from 'antd';
+import './Reset.css';
 
 
   class RegistrationForm extends React.Component {
@@ -62,21 +61,7 @@ import './Register.css';
           style={{margin: '30px', marginLeft: '270px', textAlign: 'center'}} />
         <Card bordered={false}  style={{ width: 600, boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'}}>
         <Form {...formItemLayout} onSubmit={this.handleSubmit}>
-          <Form.Item style={{ textAlign: 'center',}}><h2>Register</h2></Form.Item>
-          <Form.Item label="E-mail">
-            {getFieldDecorator('email', {
-              rules: [
-                {
-                  type: 'email',
-                  message: 'The input is not valid E-mail!',
-                },
-                {
-                  required: true,
-                  message: 'Please input your E-mail!',
-                },
-              ],
-            })(<Input />)}
-          </Form.Item>
+          <Form.Item style={{ textAlign: 'center'}}><h2>Reset Password</h2></Form.Item>
           <Form.Item label="Password" hasFeedback>
             {getFieldDecorator('password', {
               rules: [
@@ -104,10 +89,9 @@ import './Register.css';
             })(<Input.Password onBlur={this.handleConfirmBlur} />)}
           </Form.Item>
           <Form.Item>
-              <Button type="primary" className="Forgot">
-                Register
+              <Button type="primary" className="Reset">
+                Reset Password
               </Button>
-              <Button type="link" className="Button" > <Link to="/login"> <Icon type="user"/> Already have a account? </Link></Button>
           </Form.Item>
         </Form>
         </Card>
